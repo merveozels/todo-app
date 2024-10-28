@@ -4,7 +4,7 @@ let inputValue= document.querySelector('.inputTxt');
 let toDo = document.querySelector('.input-list');
 let addTaskbtn =document.querySelector('.addBtn')
 
-addTaskbtn.addEventListener('keypress', addTask);
+addTaskbtn.addEventListener('click', addTask);
 
 function addTask(){
   if(inputValue.value == ''){

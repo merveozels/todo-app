@@ -67,7 +67,6 @@ h6 {
 .container{
   background: url(../img/todo-background-img.svg ) no-repeat;
   padding-top: 25px;
-  display: flex;
   display: grid;
   justify-content: center;
   gap: 43px;
